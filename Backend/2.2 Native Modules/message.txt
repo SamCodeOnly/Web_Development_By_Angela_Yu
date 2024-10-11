@@ -1,2 +1,2 @@
-Hello From Node JS!
-Hello From Samuel!
+Hello from NodeJS!
+Hello from Samuel!

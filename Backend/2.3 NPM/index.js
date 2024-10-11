@@ -1,14 +1,18 @@
-// var generateName = require("sillyname");
+// var generateName = require("sillyname")
 
-// either we can use the module like this
-// import generateName from "sillyName";
+// if we use Module Based 
+import generateName from "sillyname";
+var sillyName = generateName();
 
-// var sillyName = generateName();
+console.log(`My name is ${sillyName}.`);
 
-// console.log(`My Name is ${sillyName}.`);
 
-import superheroes  from "superheroes";
 
-var name = superheroes.random();
 
-console.log(`My Name is ${name}!`);
+
+// Generating a Super Hero Name Challenge
+import {randomSuperhero} from 'superheroes';
+
+const name = randomSuperhero();
+
+console.log(`I'm ${name}!`)

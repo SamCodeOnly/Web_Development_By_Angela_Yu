@@ -3,24 +3,22 @@
 2. Use the qr-image npm package to turn the user entered URL into a QR code image.
 3. Create a txt file to save the user input using the native fs node module.
 */
-// Import required packages
 import inquirer from "inquirer";
-import qr from "qr-image"; 
+import qr from "qr-image";
 import fs from "fs";
 
-// Ask user for URL input
+
 inquirer
-  .prompt([{
-      message: "Enter the URL you want to generate a QR code for:",
-      name: "URL",
-    },
+  .prompt([
+     {
+       message: "Type in your URL: ",
+       name: "URL",
+     },
   ])
   .then((answers) => {
-    const url = answers.URL;
-    // Generate QR code image
+    const url = answers.url;
     var qr_png = qr.image(url);
-    qr_png.pipe(fs.createWriteStream("qr-img.png"));
-
+    qr_png.pipe(fs.createWriteStream('qr.png'));
 
     fs.writeFile('URL.txt', url, (err) => {
       if (err) throw err;
@@ -34,7 +32,3 @@ inquirer
       // Something else went wrong
     }
   });
-
-
-
-
