@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blueviolet;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 10px 10px 30px;
+  padding: 13px;
+}
+h1 > span {
+  color: bisque;
+  font-size: 80px;
+}
+h1 {
+  color: lightblue;
+  font-size: 45px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 10px 10px 30px;
+  padding: 20px;
+}
+#footer-text {
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.small-container {
+  border: 1px solid black;
+  height: 500px;
+  width: 700px;
+  margin: 20px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 30px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.each-element {
+  margin-top: 20px;
+}
+input {
+  border: none;
+  background-color: rgb(241, 229, 213);
+  border-radius: 20px;
+  width: 500px;
+  height: 45px;
+  font-size: 25px;
+}
+button {
+  margin-left: 15px;
+  border-radius: 70px;
+  width: 50px;
+  height: 30px;
+  border: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 10px;
+}
+li {
+  border-bottom-style: solid;
+  border-color: azure;
+  padding: 5px;
+  border-radius: 10px;
+ 
+}
+.To-doList {
+  background-color: rgb(138, 108, 228);
+  border-radius: 20px;
+  margin: 20px;
+  font-size: 20px;
+}
