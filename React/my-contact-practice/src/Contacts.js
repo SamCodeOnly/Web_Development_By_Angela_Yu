@@ -11,9 +11,6 @@ const Contact = [
     phone: "+4284014783",
     email: "Jack Beurer@gmail.com"
   },
-  {
-    imgURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNr9SxNl85k9OSPD6oFnr2ptGSnmbYNBw5kg&s"
-  }
 ]
 
 
