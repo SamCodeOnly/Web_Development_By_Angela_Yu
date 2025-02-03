@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cocktail Recipe with pic</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <section>
+    <div class="nav-bar">
+      <div class="logo">
+        <h1 class="logo-text">Todays CockTail</h1>
+      </div>
+      <div class="searchingBox">
+        <input type="text" name="" id="" placeholder="find a recipe">
+        <button>🔎</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-2">
+    <div class="container">
+      <div class="cocktail-container">
+        <h1><%=cocktailName %></h1>
+      </div>
+      <div class="cocktail-image">
+        <img src="<%=cocktailImage  %>" alt="coctail-img">
+      </div>
+      <div class="instruction">
+        <h1>instruction:</h1>
+        <p><%= instruction %></p>
+      </div>
+    </div>
+  </section>
+  
+</body>
+</html>
