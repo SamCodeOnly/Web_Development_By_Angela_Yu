@@ -27,7 +27,6 @@ root.render(
         tel="+2186923212" 
         email="JackBauer@gmail.com"
     />
-
     <Card name="Chuck Norris" img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtEV8SOFYsCZSHFykMVmJkp9ya9Er-U9SAyQ&s" tel="+645657836767" email="ChuckNoriis@gmail.com" />
   </React.StrictMode>
 );
