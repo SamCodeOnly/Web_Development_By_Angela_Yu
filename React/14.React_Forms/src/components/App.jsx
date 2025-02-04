@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 function App() {
 
   function handleChange() {
-    
+    console.log("Changed")
   }
   return (
     <div className='container'>
